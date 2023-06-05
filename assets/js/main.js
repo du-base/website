@@ -376,7 +376,7 @@ jQuery(function ($) {
 	}
 	// AJAX MailChimp
 	$(".newsletter-form").ajaxChimp({
-		url: "https://envytheme.us20.list-manage.com/subscribe/post?u=60e1ffe2e8a68ce1204cd39a5&amp;id=42d6d188d9", // Your url MailChimp
+		url: "https://duBase.us20.list-manage.com/subscribe/post?u=60e1ffe2e8a68ce1204cd39a5&amp;id=42d6d188d9", // Your url MailChimp
 		callback: callbackFunction
 	});
 
@@ -496,9 +496,6 @@ jQuery(function ($) {
 	jQuery(window).on('load',function(){
 		jQuery(".preloader").fadeOut(500);
 	});
-
-	// Buy Now Btn
-	$('body').append("<a href='https://1.envato.market/vn0n4A' target='_blank' class='buy-now-btn'>Buy Now</a>");
 
 	// Switch Btn
 	$('body').append("<div class='switch-box'><label id='switch' class='switch'><input type='checkbox' onchange='toggleTheme()' id='slider'><span class='slider round'></span></label></div>"); 
