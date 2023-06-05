@@ -9432,38 +9432,6 @@ Pagination CSS
   padding: 10px !important;
 }
 
-/*=================================
-Buy Now Btn
-====================================*/
-.buy-now-btn {
-  right: 30px;
-  z-index: 99;
-  top: 50%;
-  position: fixed;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  border-radius: 30px;
-  display: inline-block;
-  color: var(--white-color) !important;
-  background-color: #82b440;
-  padding: 8px 20px 8px;
-  font-size: 14px;
-  font-weight: 500;
-  -webkit-animation-name: tada;
-          animation-name: tada;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-}
-
-.buy-now-btn:hover {
-  background-color: var(--main-color);
-  color: var(--white-color) !important;
-}
-
 @-webkit-keyframes tada {
   0% {
     -webkit-transform: scale3d(1, 1, 1);
